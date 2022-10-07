@@ -1,0 +1,264 @@
+body{
+    background-color: rgba(220, 220, 220);
+    margin: 0;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.header-title{
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #836110;
+    font-family: Geomanist,sans-serif; ;
+    font-size: 60px;
+    
+}
+.header #logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-nav{
+    background-color: #e7c169;
+    padding-top: 10px;
+    padding-bottom:10px ;   
+}
+
+
+.main{
+    background-color: rgba(255, 255, 255, 0.924);
+    padding: 50px;
+    margin: 2% 10% 2% 10%;
+    border-width: 3px ;
+    border-style: groove;
+}
+.main-title{
+    margin-top: 0;
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000;
+    font-family: Geomanist,sans-serif;
+    
+}
+.main h3{
+    text-align: center;
+    font-family: Geomanist,sans-serif;
+    font-size: 30px;
+    color : #e7c169;
+}
+
+ 
+.main p{
+    font-family: Asap,sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height:22px;
+}
+
+.main figure{
+    margin: 0;
+}
+
+.main-legende{
+    font-family: Asap,sans-serif;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.main-table{
+    background-color: #fff;
+    border-style: groove;
+    border-color: black;
+    margin-left: 5%;
+}
+
+.main-table th{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: Geomanist,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-table tr{
+    padding: 10px;
+}
+.main-table td{
+    font-family: Asap,sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height:22px;
+}
+
+.main-table td:nth-last-of-type(2n+1){
+    background-color:#e7c169 ;
+}
+
+#legende-table{
+    text-align: left;
+}
+
+
+.header-nav a{
+    margin: 3px;
+    padding: 25px;
+    font-size: 20px;
+    color: #e3474b;
+    font-family: Geomanist,sans-serif;
+    text-decoration: none;
+}
+.header-nav a:hover{
+    background-color: #e49f00;
+}
+.header-nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.header-nav li{
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+
+.footer{
+    background-color: #e7c169;
+    padding-bottom: 50px; 
+}
+.main a{
+    color: #000000;
+    font-family : Geomanist,sans-serif;
+}
+
+.main a:hover{
+    color: red
+}
+.main p{
+    text-align: justify;
+    padding: 10px;
+   
+}
+.main article{
+    padding:20px;
+}
+.main p ~ ul{
+    padding: 15px;
+    list-style: inside;
+    font-family: Geomanist,sans-serif;
+    font-size: 18px;
+
+}
+.main h3 ~ ul{
+    padding: 15px;
+    list-style: inside;
+    font-family: Geomanist,sans-serif;
+    font-size: 20px;
+}
+
+.footer p{
+    color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+}
+.footer #logo_cyu{
+    margin-bottom: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.footer li{
+    list-style-type: none;
+    display: inline;
+    margin: 3px;
+}
+.footer a{
+    margin: 3px;
+    padding: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: Geomanist,sans-serif;
+    text-decoration: none;
+
+}
+.footer a:hover{
+    font-style:italic;
+    text-decoration: underline;
+}
+.main h3 ~ figure{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+   
+}
+.main h3 ~ figure img{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.main h3 ~ figure figcaption{
+    text-align: center;
+}
+.main-fig img{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.main-fig figcaption{
+    text-align: center;
+}
+
+#objectif{
+    margin-left: 25%;
+}
+
+.aside{
+    background-color: #e7c169;
+    padding: 3px;
+    font-size: 20px;
+    color: #e3474b;
+    font-family: Geomanist,sans-serif;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    height: 420px;
+    display: block;
+}
+.aside img{
+    margin-top: 20px;
+}
+
+.aside li:hover{
+    background-color: #e49f00;
+}
+
+
+.aside ul{
+    padding: 0;
+    justify-content: center;
+    display: block;
+}
+.aside li{
+   display: block;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aside ul a{
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+}
+.aside a:nth-last-of-type(1){
+    margin-left: 20%;
+}

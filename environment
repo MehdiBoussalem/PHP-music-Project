@@ -1,0 +1,4 @@
+LANG=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+PATH=/home/mehdi-boussalem/.local/bin:/home/mehdi-boussalem/.local/share/gem/ruby/2.7.0/bin:/home/mehdi-boussalem/.gem/ruby/2.7.0/bin:/home/mehdi-boussalem/.composer/vendor/bin:/home/mehdi-boussalem/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin
+TMPDIR=/home/mehdi-boussalem/admin/tmp
